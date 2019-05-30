@@ -1,2 +1,2 @@
-# swift-with-builddeps
-Dockerfiles for a combination of swift and builddeps. I use it for circleci
+# swift-with-buildpack
+Dockerfiles for a combination of swift and buildpack. I use it for circleci
