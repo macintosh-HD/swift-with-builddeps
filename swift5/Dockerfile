@@ -1,4 +1,4 @@
-FROM swift:4.1
+FROM swift:5.0
 
 RUN echo 'APT::Get::Assume-Yes "true";' > /etc/apt/apt.conf.d/90circleci \
     && echo 'DPkg::Options "--force-confnew";' >> /etc/apt/apt.conf.d/90circleci
